@@ -23,8 +23,6 @@ ul {
   .item {
     width: 250px;
     background-color: crimson;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
   }
   .badge {
     width: 40px;
@@ -40,4 +38,9 @@ ul {
     height: 40px;
     font-weight: bold;
   }
+}
+
+button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
