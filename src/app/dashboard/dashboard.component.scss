@@ -1,0 +1,27 @@
+div.heroes-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    margin: 10px;
+    &.selected .item,
+    &.selected .badge {
+      background-color: #000;
+      color: #336699;
+    }
+  }
+  .item {
+    width: 250px;
+    border-radius: 10px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+  }
+}
